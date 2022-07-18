@@ -6,20 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <!-- Css way 1 : style tags  -->
-    <!-- <style>
-        body {
-            color : blue
-        }
-    </style> -->
 
-    <!-- Third way : External link -->
-    <link href  = "styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1 id="lib-header">welcome to Utkarsh Trivedi's component library</h1>
-    <p class="para">I'm attending NeoG.camp and I want to make a library which would make all my projects look
+    <h1>welcome to Utkarsh Trivedi's component library</h1>
+    <p>I'm attending NeoG.camp and I want to make a library which would make all my projects look
         and consistent.</p>
 
     <hr>
@@ -28,22 +21,24 @@
     <h2>This is the second biggest</h2>
     <p>And this ones is the normal text.This is free flowing
         and wrap at the end like a paragraph.</p>
-    <small class="para">This is relatively smaller text.</small>
+
+    <p>This parargaph will have <strong>bold</strong> text</p>
+    <small>This is relatively smaller text.</small>
 
     <hr>
 
     <h2>@container</h2>
 
     <h3>This is fluid container</h3>
-    <div class="para">This is fluid container and it will go till the end of page</div>
+    <div class="container-fluid">This is fluid container and it will go till the end of page</div>
 
     <h3>This is center container</h3>
-    <div>This is centered container and it will go till specified width</div>
+    <div class="container container-center">This is centered container and it will go till specified width</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
+    <a class="link primary-link" href="/">Primary Link</a>
     <a href="/">Secondary Link</a>
     <hr>
     <h2>@list</h2>

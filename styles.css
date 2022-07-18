@@ -1,20 +1,31 @@
-body
-{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    --primary-color: blue;
 }
 
-h1{
-    color: red;
+body {
+    font-family: 'Montserrat', sans-serif;
+
 }
 
-h2{
-    color: gray;
+.container {
+
+    padding: 0rem 1rem;
 }
 
-#lib-header{
-    color : pink;
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
-.para{
-    color : red;
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
