@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- Css way 1 : style tags  -->
+    <!-- <style>
+        body {
+            color : blue
+        }
+    </style> -->
+
+    <!-- Third way : External link -->
+    <link href  = "styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <h1>welcome to Utkarsh Trivedi's component library</h1>
-    <p>I'm attending NeoG.camp and I want to make a library which would make all my projects look
+    <h1 id="lib-header">welcome to Utkarsh Trivedi's component library</h1>
+    <p class="para">I'm attending NeoG.camp and I want to make a library which would make all my projects look
         and consistent.</p>
 
-        <hr >
-        <h2>@typography</h2>
-        <h1>This is the biggest heading</h1>
-        <h2>This is the second biggest</h2>
-        <p>And this ones is the normal text.This is free flowing
-            and wrap at the end like a paragraph.</p>
-        <small>This is relatively smaller text.</small>
-        
-        <hr>
-        
-        <h2>@container</h2>
+    <hr>
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>And this ones is the normal text.This is free flowing
+        and wrap at the end like a paragraph.</p>
+    <small class="para">This is relatively smaller text.</small>
 
-        <h3>This is fluid container</h3>
-        <div>This is fluid container and it will go till the end of page</div>
+    <hr>
 
-        <h3>This is center container</h3>
-        <div>This is centered container and it will go till specified width</div>
-        
-        <hr>
-        
-        <h2>@links</h2>
-        <a href = "/">Primary Link</a>
-        <a href = "/">Secondary Link</a>
+    <h2>@container</h2>
+
+    <h3>This is fluid container</h3>
+    <div class="para">This is fluid container and it will go till the end of page</div>
+
+    <h3>This is center container</h3>
+    <div>This is centered container and it will go till specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a href="/">Primary Link</a>
+    <a href="/">Secondary Link</a>
     <hr>
     <h2>@list</h2>
     <h3>Unordered List</h3>
@@ -43,7 +54,7 @@
         <li>ItemTwo</li>
         <li>ItemThree</li>
     </ul>
-<h3>Unordered Inline List</h3>
+    <h3>Unordered Inline List</h3>
     <ul>
         <li>Inline Item One</li>
         <li>Inline Item Two</li>
@@ -60,30 +71,51 @@
 
     <hr>
     <h2>@nav</h2>
-        <nav>
-            <div>IamBrand</div>
-                <ul>
-                    <li>
-                        <a href="/">home</a>
-                    </li>
-                    <li>
-                        <a href="/">products</a>
-                    </li>
-                    <li>
-                        <a href = "/">about</a>
-                    </li>
-                </ul>
-        </nav>
+    <nav>
+        <div>IamBrand</div>
+        <ul>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/">products</a>
+            </li>
+            <li>
+                <a href="/">about</a>
+            </li>
+        </ul>
+    </nav>
 
-        <hr>
-        <h2>@header</h2>
-        <header>
-            <img src="https://media-exp2.licdn.com/dms/image/C4D03AQGA9pIKyhKWxw/profile-displayphoto-shrink_400_400/0/1637900571988?e=1663200000&v=beta&t=6G8YNxTMEsan5J-o6JhoSuaEwPomsiKhGIXCRA_t0VU"/>
-            <h1>heading inside hero</h1>
+    <hr>
+    <h2>@header</h2>
+    <header>
+        <img src="images/heroImg.svg" />
 
-        </header>
+    </header>
+    <hr>
+    <h2>@section</h2>
 
+    <section>
+        <h3>white section</h3>
+        <p>THis will have white background </p>
+    </section>
+    <section>
+        <h3>off white section</h3>
+        <p>THis will have gray background </p>
+    </section>
+    <hr>
+    <h2>@footer</h2>
+    <footer>
+        <div>
+            Some small heading inside footer
+            <ul>
+                <li>socialone</li>
+                <li>socialtwo</li>
+                <li>socialthree</li>
+            </ul>
+        </div>
+    </footer>
 
+</body>
 
-    </body>
 </html>
